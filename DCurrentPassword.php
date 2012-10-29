@@ -43,11 +43,11 @@ class DCurrentPassword extends CValidator
     protected function loadModel($object)
     {
         if (empty($this->idAttribute))
-            throw new CException('Undefined attribute idAttribute');
+            throw new CException('Attribute idAttribute is not defined');
         if (empty($object->{$this->idAttribute}))
             throw new CException('Attribute ' . $this->idAttribute . ' not found');
         if (empty($this->validateMethod))
-            throw new CException('Undefined attribute validateMethod');
+            throw new CException('Attribute validateMethod is not defined');
 
         if (empty($this->className)) $this->className = get_class($object);
 
