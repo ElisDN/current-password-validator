@@ -1,5 +1,6 @@
 Current Password Validator
 ===
+Validates field "Input current password" in Yii model.
 
 Readme
 ---
