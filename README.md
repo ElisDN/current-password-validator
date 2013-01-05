@@ -5,8 +5,8 @@ Validates field "Input current password" in Yii model.
 Readme
 ---
 
-[README RUS](http://www.elisdn.ru/blog/10/dcurrentpassword-validaciia-tekushego-parolia)
-[Extension](http://www.yiiframework.com/extension/current-password-validator/)
+- [README RUS](http://www.elisdn.ru/blog/10/dcurrentpassword-validaciia-tekushego-parolia)
+- [Extension](http://www.yiiframework.com/extension/current-password-validator/)
 
 Installation
 ------------
